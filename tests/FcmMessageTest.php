@@ -9,7 +9,7 @@ class FcmMessageTest extends TestCase
     /** @var FcmMessage */
     protected $message;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
         $this->message = new FcmMessage();
